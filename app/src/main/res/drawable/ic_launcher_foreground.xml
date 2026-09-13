@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer glass body shadow/glow -->
+    <path
+        android:pathData="M31,25 C31,22.2 33.2,20 36,20 L72,20 C74.8,20 77,22.2 77,25 L77,83 C77,85.8 74.8,88 72,88 L36,88 C33.2,88 31,85.8 31,83 Z"
+        android:fillColor="#25000000" />
+
+    <!-- 3D Liquid Translucent Glass Body with gradient -->
+    <path
+        android:pathData="M32,24 C32,21.8 33.8,20 36,20 L72,20 C74.2,20 76,21.8 76,24 L76,82 C76,84.2 74.2,86 72,86 L36,86 C33.8,86 32,84.2 32,82 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="20"
+                android:endX="76"
+                android:endY="86"
+                android:type="linear">
+                <item android:color="#66FFFFFF" android:offset="0.0" />
+                <item android:color="#20FFFFFF" android:offset="0.4" />
+                <item android:color="#3538BDF8" android:offset="0.7" />
+                <item android:color="#50818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="20"
+                android:endX="76"
+                android:endY="86"
+                android:type="linear">
+                <item android:color="#CCFFFFFF" android:offset="0.0" />
+                <item android:color="#44FFFFFF" android:offset="0.5" />
+                <item android:color="#80A5F3FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeWidth">
+            <value>1.5</value>
+        </aapt:attr>
+    </path>
+
+    <!-- Translucent Glass Top Display -->
+    <path
+        android:pathData="M37,27 C37,25.3 38.3,24 40,24 L68,24 C69.7,24 71,25.3 71,27 L71,39 C71,40.7 69.7,42 68,42 L40,42 C38.3,42 37,40.7 37,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="24"
+                android:endX="71"
+                android:endY="42"
+                android:type="linear">
+                <item android:color="#330F172A" android:offset="0.0" />
+                <item android:color="#550284C7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="24"
+                android:endX="71"
+                android:endY="42"
+                android:type="linear">
+                <item android:color="#80E0F2FE" android:offset="0.0" />
+                <item android:color="#20FFFFFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeWidth">
+            <value>1</value>
+        </aapt:attr>
+    </path>
+
+    <!-- Display Digit Accent (Glossy 1 2 3 glowing dots/bar) -->
+    <path
+        android:pathData="M52,33 L66,33"
+        android:strokeColor="#E0F2FE"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Translucent Liquid Glass Keypad Buttons -->
+    <!-- Row 1: 3 buttons -->
+    <path
+        android:pathData="M37,47 C37,45.9 37.9,45 39,45 L45,45 C46.1,45 47,45.9 47,47 L47,53 C47,54.1 46.1,55 45,55 L39,55 C37.9,55 37,54.1 37,53 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M49,47 C49,45.9 49.9,45 51,45 L57,45 C58.1,45 59,45.9 59,47 L59,53 C59,54.1 58.1,55 57,55 L51,55 C49.9,55 49,54.1 49,53 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M61,47 C61,45.9 61.9,45 63,45 L69,45 C70.1,45 71,45.9 71,47 L71,53 C71,54.1 70.1,55 69,55 L63,55 C61.9,55 61,54.1 61,53 Z"
+        android:fillColor="#7038BDF8" />
+
+    <!-- Row 2: 3 buttons -->
+    <path
+        android:pathData="M37,58 C37,56.9 37.9,56 39,56 L45,56 C46.1,56 47,56.9 47,58 L47,64 C47,65.1 46.1,66 45,66 L39,66 C37.9,66 37,65.1 37,64 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M49,58 C49,56.9 49.9,56 51,56 L57,56 C58.1,56 59,56.9 59,58 L59,64 C59,65.1 58.1,66 57,66 L51,66 C49.9,66 49,65.1 49,64 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M61,58 C61,56.9 61.9,56 63,56 L69,56 C70.1,56 71,56.9 71,58 L71,64 C71,65.1 70.1,66 69,66 L63,66 C61.9,66 61,65.1 61,64 Z"
+        android:fillColor="#7038BDF8" />
+
+    <!-- Row 3: 3 buttons (equals is prominent glowing cyan) -->
+    <path
+        android:pathData="M37,69 C37,67.9 37.9,67 39,67 L45,67 C46.1,67 47,67.9 47,69 L47,75 C47,76.1 46.1,77 45,77 L39,77 C37.9,77 37,76.1 37,75 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M49,69 C49,67.9 49.9,67 51,67 L57,67 C58.1,67 59,67.9 59,69 L59,75 C59,76.1 58.1,77 57,77 L51,77 C49.9,77 49,76.1 49,75 Z"
+        android:fillColor="#50FFFFFF" />
+    <path
+        android:pathData="M61,69 C61,67.9 61.9,67 63,67 L69,67 C70.1,67 71,67.9 71,69 L71,75 C71,76.1 70.1,77 69,77 L63,77 C61.9,77 61,76.1 61,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="61"
+                android:startY="67"
+                android:endX="71"
+                android:endY="77"
+                android:type="linear">
+                <item android:color="#00F2FE" android:offset="0.0" />
+                <item android:color="#4FACFE" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Specular Highlight Arc on top-left of glass body -->
+    <path
+        android:pathData="M34,22 C37,21 44,20.5 54,20.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+</vector>
+

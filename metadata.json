@@ -1,0 +1,6 @@
+{
+  "name": "Liquid Glass Calculator",
+  "description": "A 3D rendered liquid glass translucent calculator with standard, scientific, and essential calculation tools in dark and light modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

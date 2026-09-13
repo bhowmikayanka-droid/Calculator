@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep liquid ambient gradient background -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#0F172A" android:offset="0.0" />
+                <item android:color="#0284C7" android:offset="0.5" />
+                <item android:color="#4F46E5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Liquid glow orbs -->
+    <path
+        android:pathData="M30,30m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="15"
+                android:startY="15"
+                android:endX="45"
+                android:endY="45"
+                android:type="radial"
+                android:gradientRadius="24">
+                <item android:color="#5538BDF8" android:offset="0.0" />
+                <item android:color="#0038BDF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M80,78m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="65"
+                android:startY="65"
+                android:endX="95"
+                android:endY="95"
+                android:type="radial"
+                android:gradientRadius="30">
+                <item android:color="#66818CF8" android:offset="0.0" />
+                <item android:color="#00818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
+
